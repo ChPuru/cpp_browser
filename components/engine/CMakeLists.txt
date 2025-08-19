@@ -13,8 +13,12 @@ target_include_directories(engine PUBLIC
     "${CMAKE_CURRENT_SOURCE_DIR}/src"
 )
 
-# --- THIS IS THE FIX ---
-# Link the engine against our new virtual library target.
-# The PUBLIC keyword ensures that any target linking to 'engine' (like our UI)
-# will also automatically get the Duktape properties.
+# Link the engine against our duktape library target
 target_link_libraries(engine PUBLIC duktape_lib)
+
+# Additional debugging - print Duktape info if found
+if(TARGET duktape_lib)
+    message(STATUS "Duktape successfully linked to engine component")
+else()
+    message(WARNING "duktape_lib target not found - check root CMakeLists.txt")
+endif()

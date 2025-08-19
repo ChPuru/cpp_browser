@@ -174,10 +174,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 DUKTAPE_INCLUDE_DIR:PATH=C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/include
 
 //Path to a library.
-DUKTAPE_LIBRARY_DEBUG:FILEPATH=C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/debug/lib/duktape.lib
-
-//Path to a library.
-DUKTAPE_LIBRARY_RELEASE:FILEPATH=C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/lib/duktape.lib
+DUKTAPE_LIBRARY:FILEPATH=C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/debug/lib/duktape.lib
 
 //Value Computed by CMake
 NetscapeMatrix_BINARY_DIR:STATIC=C:/Users/Lenovo/Desktop/cpp_browser/build
@@ -237,8 +234,8 @@ Z_VCPKG_PWSH_PATH:FILEPATH=Z_VCPKG_PWSH_PATH-NOTFOUND
 // triplet
 _VCPKG_INSTALLED_DIR:PATH=C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed
 
-//The directory containing a CMake configuration file for duktape.
-duktape_DIR:PATH=C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/share/duktape
+//The directory containing a CMake configuration file for cpr.
+cpr_DIR:PATH=cpr_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for glad.
 glad_DIR:PATH=C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/share/glad
@@ -330,7 +327,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -378,16 +375,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_TOOLCHAIN_FILE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: DUKTAPE_INCLUDE_DIR
-DUKTAPE_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: DUKTAPE_LIBRARY_DEBUG
-DUKTAPE_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: DUKTAPE_LIBRARY_RELEASE
-DUKTAPE_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
-//Details about finding duktape
-FIND_PACKAGE_MESSAGE_DETAILS_duktape:INTERNAL=[optimized;C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/lib/duktape.lib;debug;C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/debug/lib/duktape.lib][C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/include][v()]
 //Install the dependencies listed in your manifest:
 //\n    If this is off, you will have to manually install your dependencies.
 //\n    See https://github.com/microsoft/vcpkg/tree/master/docs/specifications/manifests.md

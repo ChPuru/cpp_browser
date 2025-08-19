@@ -1,6 +1,5 @@
 #include "network_process.h"
 #include <iostream>
-#include <optional>
 
 namespace Net {
 
@@ -15,27 +14,25 @@ namespace Net {
             return std::nullopt;
         }
 
-        std::cout << "[Network] Allowed." << std::endl;
+        // --- REAL HTTP REQUEST ---
+        cpr::Response r = cpr::Get(cpr::Url{url});
 
-        // --- SIMULATED FETCH ---
-        if (url == "test.html") {
+        if (r.status_code == 200) {
+            std::cout << "[Network] Success (" << r.status_code << ") [" << r.header["content-type"] << "]" << std::endl;
             return Resource{
                 url,
-                // --- THIS IS THE CORRECTED HTML ---
-                // The blocked <img> tags have been removed, as if they
-                // were never in the original source file.
-                R"(
-                    <div id="main">
-                        <h1>Welcome!</h1>
-                        <p>This page is safe.</p>
-                    </div>
-                )"
+                r.text,
+                r.header["content-type"]
+            };
+        } else {
+            std::cout << "[Network] !!! FAILED !!! (" << r.status_code << ")" << std::endl;
+            // Return a simple error page
+            return Resource{
+                url,
+                "<h1>Error " + std::to_string(r.status_code) + "</h1>",
+                "text/html"
             };
         }
-
-        // In a real browser, we would also check if other resources like images are blocked.
-        // For now, we just return dummy data.
-        return Resource{ url, "Some data" };
     }
 
 } // namespace Net

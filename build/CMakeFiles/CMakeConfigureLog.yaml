@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.18+a338add32 for .NET Framework
-      Build started 19-08-2025 16:16:46.
+      Build started 19-08-2025 16:31:28.
       
       Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -62,7 +62,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.87
+      Time Elapsed 00:00:00.96
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -81,8 +81,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-fwbgax"
-      binary: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-fwbgax"
+      source: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-ulix07"
+      binary: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-ulix07"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -96,34 +96,34 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-fwbgax'
+        Change Dir: 'C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-ulix07'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_90d5b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_61195.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.18+a338add32 for .NET Framework
-        Build started 19-08-2025 16:16:47.
+        Build started 19-08-2025 16:31:30.
         
-        Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fwbgax\\cmTC_90d5b.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ulix07\\cmTC_61195.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_90d5b.dir\\Debug\\".
+          Creating directory "cmTC_61195.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fwbgax\\Debug\\".
-          Creating directory "cmTC_90d5b.dir\\Debug\\cmTC_90d5b.tlog\\".
+          Creating directory "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ulix07\\Debug\\".
+          Creating directory "cmTC_61195.dir\\Debug\\cmTC_61195.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_90d5b.dir\\Debug\\cmTC_90d5b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_90d5b.dir\\Debug\\cmTC_90d5b.tlog\\unsuccessfulbuild".
+          Creating "cmTC_61195.dir\\Debug\\cmTC_61195.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_61195.dir\\Debug\\cmTC_61195.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90d5b.dir\\Debug\\\\" /Fd"cmTC_90d5b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cmake\\data\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61195.dir\\Debug\\\\" /Fd"cmTC_61195.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cmake\\data\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90d5b.dir\\Debug\\\\" /Fd"cmTC_90d5b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cmake\\data\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61195.dir\\Debug\\\\" /Fd"cmTC_61195.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cmake\\data\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fwbgax\\Debug\\cmTC_90d5b.exe" /INCREMENTAL /ILK:"cmTC_90d5b.dir\\Debug\\cmTC_90d5b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-fwbgax/Debug/cmTC_90d5b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-fwbgax/Debug/cmTC_90d5b.lib" /MACHINE:X64  /machine:x64 cmTC_90d5b.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_90d5b.vcxproj -> C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fwbgax\\Debug\\cmTC_90d5b.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ulix07\\Debug\\cmTC_61195.exe" /INCREMENTAL /ILK:"cmTC_61195.dir\\Debug\\cmTC_61195.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-ulix07/Debug/cmTC_61195.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-ulix07/Debug/cmTC_61195.lib" /MACHINE:X64  /machine:x64 cmTC_61195.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_61195.vcxproj -> C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ulix07\\Debug\\cmTC_61195.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_90d5b.dir\\Debug\\cmTC_90d5b.tlog\\unsuccessfulbuild".
-          Touching "cmTC_90d5b.dir\\Debug\\cmTC_90d5b.tlog\\cmTC_90d5b.lastbuildstate".
-        Done Building Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fwbgax\\cmTC_90d5b.vcxproj" (default targets).
+          Deleting file "cmTC_61195.dir\\Debug\\cmTC_61195.tlog\\unsuccessfulbuild".
+          Touching "cmTC_61195.dir\\Debug\\cmTC_61195.tlog\\cmTC_61195.lastbuildstate".
+        Done Building Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ulix07\\cmTC_61195.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
@@ -175,8 +175,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-7i1a26"
-      binary: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-7i1a26"
+      source: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-vy07i2"
+      binary: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-vy07i2"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -189,40 +189,40 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-7i1a26'
+        Change Dir: 'C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-vy07i2'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_63d98.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e3167.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.18+a338add32 for .NET Framework
-        Build started 19-08-2025 16:16:48.
+        Build started 19-08-2025 16:31:31.
         
-        Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7i1a26\\cmTC_63d98.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vy07i2\\cmTC_e3167.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_63d98.dir\\Debug\\".
+          Creating directory "cmTC_e3167.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7i1a26\\Debug\\".
-          Creating directory "cmTC_63d98.dir\\Debug\\cmTC_63d98.tlog\\".
+          Creating directory "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vy07i2\\Debug\\".
+          Creating directory "cmTC_e3167.dir\\Debug\\cmTC_e3167.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_63d98.dir\\Debug\\cmTC_63d98.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_63d98.dir\\Debug\\cmTC_63d98.tlog\\unsuccessfulbuild".
+          Creating "cmTC_e3167.dir\\Debug\\cmTC_e3167.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e3167.dir\\Debug\\cmTC_e3167.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_63d98.dir\\Debug\\\\" /Fd"cmTC_63d98.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7i1a26\\src.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_e3167.dir\\Debug\\\\" /Fd"cmTC_e3167.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vy07i2\\src.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_63d98.dir\\Debug\\\\" /Fd"cmTC_63d98.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7i1a26\\src.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_e3167.dir\\Debug\\\\" /Fd"cmTC_e3167.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vy07i2\\src.cxx"
           src.cxx
-        C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7i1a26\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7i1a26\\cmTC_63d98.vcxproj]
-        Done Building Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7i1a26\\cmTC_63d98.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vy07i2\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vy07i2\\cmTC_e3167.vcxproj]
+        Done Building Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vy07i2\\cmTC_e3167.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7i1a26\\cmTC_63d98.vcxproj" (default target) (1) ->
+        "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vy07i2\\cmTC_e3167.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7i1a26\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7i1a26\\cmTC_63d98.vcxproj]
+          C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vy07i2\\src.cxx(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vy07i2\\cmTC_e3167.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.29
+        Time Elapsed 00:00:00.33
         
       exitCode: 1
   -
@@ -239,8 +239,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-pp2njy"
-      binary: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-pp2njy"
+      source: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-kuy7wa"
+      binary: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-kuy7wa"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -253,42 +253,42 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-pp2njy'
+        Change Dir: 'C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-kuy7wa'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d7a81.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_39b83.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.18+a338add32 for .NET Framework
-        Build started 19-08-2025 16:16:49.
+        Build started 19-08-2025 16:31:31.
         
-        Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp2njy\\cmTC_d7a81.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuy7wa\\cmTC_39b83.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_d7a81.dir\\Debug\\".
+          Creating directory "cmTC_39b83.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp2njy\\Debug\\".
-          Creating directory "cmTC_d7a81.dir\\Debug\\cmTC_d7a81.tlog\\".
+          Creating directory "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuy7wa\\Debug\\".
+          Creating directory "cmTC_39b83.dir\\Debug\\cmTC_39b83.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d7a81.dir\\Debug\\cmTC_d7a81.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_d7a81.dir\\Debug\\cmTC_d7a81.tlog\\unsuccessfulbuild".
+          Creating "cmTC_39b83.dir\\Debug\\cmTC_39b83.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_39b83.dir\\Debug\\cmTC_39b83.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_d7a81.dir\\Debug\\\\" /Fd"cmTC_d7a81.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp2njy\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_39b83.dir\\Debug\\\\" /Fd"cmTC_39b83.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuy7wa\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_d7a81.dir\\Debug\\\\" /Fd"cmTC_d7a81.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp2njy\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_39b83.dir\\Debug\\\\" /Fd"cmTC_39b83.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuy7wa\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp2njy\\Debug\\cmTC_d7a81.exe" /INCREMENTAL /ILK:"cmTC_d7a81.dir\\Debug\\cmTC_d7a81.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-pp2njy/Debug/cmTC_d7a81.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-pp2njy/Debug/cmTC_d7a81.lib" /MACHINE:X64  /machine:x64 cmTC_d7a81.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp2njy\\cmTC_d7a81.vcxproj]
-        Done Building Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp2njy\\cmTC_d7a81.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuy7wa\\Debug\\cmTC_39b83.exe" /INCREMENTAL /ILK:"cmTC_39b83.dir\\Debug\\cmTC_39b83.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-kuy7wa/Debug/cmTC_39b83.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-kuy7wa/Debug/cmTC_39b83.lib" /MACHINE:X64  /machine:x64 cmTC_39b83.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuy7wa\\cmTC_39b83.vcxproj]
+        Done Building Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuy7wa\\cmTC_39b83.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp2njy\\cmTC_d7a81.vcxproj" (default target) (1) ->
+        "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuy7wa\\cmTC_39b83.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pp2njy\\cmTC_d7a81.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kuy7wa\\cmTC_39b83.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.39
+        Time Elapsed 00:00:00.41
         
       exitCode: 1
   -
@@ -305,8 +305,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-fz7fux"
-      binary: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-fz7fux"
+      source: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-6he5su"
+      binary: "C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-6he5su"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -319,42 +319,42 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-fz7fux'
+        Change Dir: 'C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-6he5su'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3cecc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_32716.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.18+a338add32 for .NET Framework
-        Build started 19-08-2025 16:16:50.
+        Build started 19-08-2025 16:31:32.
         
-        Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fz7fux\\cmTC_3cecc.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6he5su\\cmTC_32716.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_3cecc.dir\\Debug\\".
+          Creating directory "cmTC_32716.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fz7fux\\Debug\\".
-          Creating directory "cmTC_3cecc.dir\\Debug\\cmTC_3cecc.tlog\\".
+          Creating directory "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6he5su\\Debug\\".
+          Creating directory "cmTC_32716.dir\\Debug\\cmTC_32716.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_3cecc.dir\\Debug\\cmTC_3cecc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_3cecc.dir\\Debug\\cmTC_3cecc.tlog\\unsuccessfulbuild".
+          Creating "cmTC_32716.dir\\Debug\\cmTC_32716.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_32716.dir\\Debug\\cmTC_32716.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_3cecc.dir\\Debug\\\\" /Fd"cmTC_3cecc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fz7fux\\CheckFunctionExists.cxx"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_32716.dir\\Debug\\\\" /Fd"cmTC_32716.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6he5su\\CheckFunctionExists.cxx"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35214 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_3cecc.dir\\Debug\\\\" /Fd"cmTC_3cecc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fz7fux\\CheckFunctionExists.cxx"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_32716.dir\\Debug\\\\" /Fd"cmTC_32716.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6he5su\\CheckFunctionExists.cxx"
           CheckFunctionExists.cxx
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fz7fux\\Debug\\cmTC_3cecc.exe" /INCREMENTAL /ILK:"cmTC_3cecc.dir\\Debug\\cmTC_3cecc.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-fz7fux/Debug/cmTC_3cecc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-fz7fux/Debug/cmTC_3cecc.lib" /MACHINE:X64  /machine:x64 cmTC_3cecc.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fz7fux\\cmTC_3cecc.vcxproj]
-        Done Building Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fz7fux\\cmTC_3cecc.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6he5su\\Debug\\cmTC_32716.exe" /INCREMENTAL /ILK:"cmTC_32716.dir\\Debug\\cmTC_32716.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-6he5su/Debug/cmTC_32716.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/CMakeScratch/TryCompile-6he5su/Debug/cmTC_32716.lib" /MACHINE:X64  /machine:x64 cmTC_32716.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6he5su\\cmTC_32716.vcxproj]
+        Done Building Project "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6he5su\\cmTC_32716.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fz7fux\\cmTC_3cecc.vcxproj" (default target) (1) ->
+        "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6he5su\\cmTC_32716.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fz7fux\\cmTC_3cecc.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\Lenovo\\Desktop\\cpp_browser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6he5su\\cmTC_32716.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.40
+        Time Elapsed 00:00:00.44
         
       exitCode: 1
 ...

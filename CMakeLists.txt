@@ -9,19 +9,26 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake"
   CACHE STRING "Vcpkg toolchain file")
 
-# Find ALL packages for the entire project at the top level.
+# Find packages
 find_package(glfw3 CONFIG REQUIRED)
 find_package(glad CONFIG REQUIRED)
 find_package(imgui CONFIG REQUIRED)
-find_package(duktape CONFIG REQUIRED)
+find_package(cpr CONFIG REQUIRED)
 
-# --- THIS IS THE DEFINITIVE FIX ---
-# Create a robust, modern "INTERFACE" library target for Duktape.
-# This bundles the include directories and library files into a single, linkable item.
+# Manual Duktape setup - vcpkg's duktape doesn't provide modern CMake targets
+find_path(DUKTAPE_INCLUDE_DIR duktape.h)
+find_library(DUKTAPE_LIBRARY NAMES duktape)
+
+if(NOT DUKTAPE_INCLUDE_DIR OR NOT DUKTAPE_LIBRARY)
+    message(FATAL_ERROR "Duktape not found. Please install with: vcpkg install duktape")
+endif()
+
+# Create duktape interface library
 add_library(duktape_lib INTERFACE)
-target_include_directories(duktape_lib INTERFACE ${duktape_INCLUDE_DIRS})
-target_link_libraries(duktape_lib INTERFACE ${duktape_LIBRARIES})
-# ------------------------------------
+target_include_directories(duktape_lib INTERFACE ${DUKTAPE_INCLUDE_DIR})
+target_link_libraries(duktape_lib INTERFACE ${DUKTAPE_LIBRARY})
+
+message(STATUS "Found Duktape: ${DUKTAPE_INCLUDE_DIR} ${DUKTAPE_LIBRARY}")
 
 # Add all our components
 add_subdirectory(components/shared)

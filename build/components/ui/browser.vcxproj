@@ -131,7 +131,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>..\engine\Debug\engine.lib;..\gpu\Debug\gpu.lib;..\net\Debug\net.lib;..\shared\Debug\shared.lib;glad.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\debug\lib\imguid.lib;..\engine\Debug\engine.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\debug\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\engine\Debug\engine.lib;..\gpu\Debug\gpu.lib;..\net\Debug\net.lib;..\shared\Debug\shared.lib;glad.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\debug\lib\imguid.lib;..\engine\Debug\engine.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\debug\lib\duktape.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\debug\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/lib;C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -191,7 +191,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>..\engine\Release\engine.lib;..\gpu\Release\gpu.lib;..\net\Release\net.lib;..\shared\Release\shared.lib;glad.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\lib\imgui.lib;..\engine\Release\engine.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\engine\Release\engine.lib;..\gpu\Release\gpu.lib;..\net\Release\net.lib;..\shared\Release\shared.lib;glad.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\lib\imgui.lib;..\engine\Release\engine.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\debug\lib\duktape.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/lib;C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -251,7 +251,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>..\engine\MinSizeRel\engine.lib;..\gpu\MinSizeRel\gpu.lib;..\net\MinSizeRel\net.lib;..\shared\MinSizeRel\shared.lib;glad.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\lib\imgui.lib;..\engine\MinSizeRel\engine.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\engine\MinSizeRel\engine.lib;..\gpu\MinSizeRel\gpu.lib;..\net\MinSizeRel\net.lib;..\shared\MinSizeRel\shared.lib;glad.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\lib\imgui.lib;..\engine\MinSizeRel\engine.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\debug\lib\duktape.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/lib;C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -310,7 +310,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>..\engine\RelWithDebInfo\engine.lib;..\gpu\RelWithDebInfo\gpu.lib;..\net\RelWithDebInfo\net.lib;..\shared\RelWithDebInfo\shared.lib;glad.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\lib\imgui.lib;..\engine\RelWithDebInfo\engine.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\engine\RelWithDebInfo\engine.lib;..\gpu\RelWithDebInfo\gpu.lib;..\net\RelWithDebInfo\net.lib;..\shared\RelWithDebInfo\shared.lib;glad.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\lib\imgui.lib;..\engine\RelWithDebInfo\engine.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\debug\lib\duktape.lib;C:\Users\Lenovo\Desktop\cpp_browser\vcpkg\installed\x64-windows\lib\glfw3dll.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/lib;C:/Users/Lenovo/Desktop/cpp_browser/vcpkg/installed/x64-windows/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
