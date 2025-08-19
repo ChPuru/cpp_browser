@@ -1,0 +1,7 @@
+C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Lenovo/Desktop/cpp_browser/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Lenovo/Desktop/cpp_browser/build/components/shared/CMakeFiles/shared.dir
+C:/Users/Lenovo/Desktop/cpp_browser/build/components/engine/CMakeFiles/engine.dir
+C:/Users/Lenovo/Desktop/cpp_browser/build/components/gpu/CMakeFiles/gpu.dir
+C:/Users/Lenovo/Desktop/cpp_browser/build/components/net/CMakeFiles/net.dir
+C:/Users/Lenovo/Desktop/cpp_browser/build/components/ui/CMakeFiles/browser.dir

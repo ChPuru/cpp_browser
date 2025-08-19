@@ -1,0 +1,411 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\ui\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\ui\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\ui\\CMakeLists.txt||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\ui\\CMakeLists.txt||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\layout.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\engine\\src\\layout.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\layout.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\engine\\src\\layout.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\style.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\engine\\src\\style.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\style.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\engine\\src\\style.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\css_parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\engine\\src\\css_parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\css_parser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\engine\\src\\css_parser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\css.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\engine\\src\\css.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\html_parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\engine\\src\\html_parser.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\html_parser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\engine\\src\\html_parser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\dom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\engine\\src\\dom.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\dom.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\engine\\src\\dom.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\CMakeLists.txt||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\engine\\CMakeLists.txt||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\net\\src\\network_process.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\net\\src\\network_process.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\net\\src\\network_process.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\net\\src\\network_process.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\net\\CMakeLists.txt||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\net\\CMakeLists.txt||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\gpu\\src\\gpu_process.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\gpu\\src\\gpu_process.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\gpu\\src\\gpu_process.h||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\gpu\\src\\gpu_process.h||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\gpu\\CMakeLists.txt||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\gpu\\CMakeLists.txt||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\shared\\src\\ipc_messages.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\shared\\src\\ipc_messages.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\shared\\src\\ipc_messages.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\shared\\src\\ipc_messages.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\shared\\CMakeLists.txt||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:components\\shared\\CMakeLists.txt||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\ui\\src\\main.cpp",
+              "RelativeDocumentMoniker": "components\\ui\\src\\main.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\ui\\src\\main.cpp",
+              "RelativeToolTip": "components\\ui\\src\\main.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-18T19:03:58.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\ui\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "components\\ui\\CMakeLists.txt",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\ui\\CMakeLists.txt",
+              "RelativeToolTip": "components\\ui\\CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-18T19:03:30.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "layout.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\layout.cpp",
+              "RelativeDocumentMoniker": "components\\engine\\src\\layout.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\layout.cpp",
+              "RelativeToolTip": "components\\engine\\src\\layout.cpp",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-18T19:02:40.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "layout.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\layout.h",
+              "RelativeDocumentMoniker": "components\\engine\\src\\layout.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\layout.h",
+              "RelativeToolTip": "components\\engine\\src\\layout.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-18T19:02:23.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "style.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\style.cpp",
+              "RelativeDocumentMoniker": "components\\engine\\src\\style.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\style.cpp",
+              "RelativeToolTip": "components\\engine\\src\\style.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-18T19:01:55.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "style.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\style.h",
+              "RelativeDocumentMoniker": "components\\engine\\src\\style.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\style.h",
+              "RelativeToolTip": "components\\engine\\src\\style.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-18T19:01:44.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "css_parser.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\css_parser.cpp",
+              "RelativeDocumentMoniker": "components\\engine\\src\\css_parser.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\css_parser.cpp",
+              "RelativeToolTip": "components\\engine\\src\\css_parser.cpp",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-18T19:01:30.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "css_parser.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\css_parser.h",
+              "RelativeDocumentMoniker": "components\\engine\\src\\css_parser.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\css_parser.h",
+              "RelativeToolTip": "components\\engine\\src\\css_parser.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-18T19:01:16.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "css.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\css.h",
+              "RelativeDocumentMoniker": "components\\engine\\src\\css.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\css.h",
+              "RelativeToolTip": "components\\engine\\src\\css.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-18T19:01:02.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "html_parser.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\html_parser.cpp",
+              "RelativeDocumentMoniker": "components\\engine\\src\\html_parser.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\html_parser.cpp",
+              "RelativeToolTip": "components\\engine\\src\\html_parser.cpp",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAowGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-18T19:00:46.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "html_parser.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\html_parser.h",
+              "RelativeDocumentMoniker": "components\\engine\\src\\html_parser.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\html_parser.h",
+              "RelativeToolTip": "components\\engine\\src\\html_parser.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-18T19:00:30.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "dom.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\dom.cpp",
+              "RelativeDocumentMoniker": "components\\engine\\src\\dom.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\dom.cpp",
+              "RelativeToolTip": "components\\engine\\src\\dom.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-18T19:00:13.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dom.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\dom.h",
+              "RelativeDocumentMoniker": "components\\engine\\src\\dom.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\src\\dom.h",
+              "RelativeToolTip": "components\\engine\\src\\dom.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-18T18:59:59.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "components\\engine\\CMakeLists.txt",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\engine\\CMakeLists.txt",
+              "RelativeToolTip": "components\\engine\\CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-18T18:59:41.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "network_process.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\net\\src\\network_process.cpp",
+              "RelativeDocumentMoniker": "components\\net\\src\\network_process.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\net\\src\\network_process.cpp",
+              "RelativeToolTip": "components\\net\\src\\network_process.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-18T18:58:58.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "network_process.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\net\\src\\network_process.h",
+              "RelativeDocumentMoniker": "components\\net\\src\\network_process.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\net\\src\\network_process.h",
+              "RelativeToolTip": "components\\net\\src\\network_process.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-18T18:58:38.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\net\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "components\\net\\CMakeLists.txt",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\net\\CMakeLists.txt",
+              "RelativeToolTip": "components\\net\\CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-18T18:57:58.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "gpu_process.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\gpu\\src\\gpu_process.cpp",
+              "RelativeDocumentMoniker": "components\\gpu\\src\\gpu_process.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\gpu\\src\\gpu_process.cpp",
+              "RelativeToolTip": "components\\gpu\\src\\gpu_process.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-18T18:57:38.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "gpu_process.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\gpu\\src\\gpu_process.h",
+              "RelativeDocumentMoniker": "components\\gpu\\src\\gpu_process.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\gpu\\src\\gpu_process.h",
+              "RelativeToolTip": "components\\gpu\\src\\gpu_process.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-18T18:57:01.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\gpu\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "components\\gpu\\CMakeLists.txt",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\gpu\\CMakeLists.txt",
+              "RelativeToolTip": "components\\gpu\\CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-18T18:56:43.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ipc_messages.cpp",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\shared\\src\\ipc_messages.cpp",
+              "RelativeDocumentMoniker": "components\\shared\\src\\ipc_messages.cpp",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\shared\\src\\ipc_messages.cpp",
+              "RelativeToolTip": "components\\shared\\src\\ipc_messages.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-18T18:53:16.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ipc_messages.h",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\shared\\src\\ipc_messages.h",
+              "RelativeDocumentMoniker": "components\\shared\\src\\ipc_messages.h",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\shared\\src\\ipc_messages.h",
+              "RelativeToolTip": "components\\shared\\src\\ipc_messages.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-18T18:52:51.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CMakeLists.txt",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\shared\\CMakeLists.txt",
+              "RelativeDocumentMoniker": "components\\shared\\CMakeLists.txt",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\cpp_browser\\components\\shared\\CMakeLists.txt",
+              "RelativeToolTip": "components\\shared\\CMakeLists.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-08-18T18:52:14.734Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

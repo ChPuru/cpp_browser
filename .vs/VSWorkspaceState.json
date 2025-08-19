@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\components",
+    "\\components\\engine",
+    "\\components\\engine\\src",
+    "\\components\\gpu",
+    "\\components\\gpu\\src",
+    "\\components\\net",
+    "\\components\\net\\src",
+    "\\components\\ui",
+    "\\components\\ui\\src"
+  ],
+  "SelectedNode": "\\components\\ui\\src\\main.cpp",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Lenovo\Desktop\cpp_browser\components\net\src\network_process.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lenovo\Desktop\cpp_browser\components\net\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D84C28E5-7A16-3947-84C3-52CD2F8A5703}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

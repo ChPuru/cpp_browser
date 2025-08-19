@@ -1,0 +1,10 @@
+^C:\USERS\LENOVO\DESKTOP\CPP_BROWSER\BUILD\CMAKEFILES\92C0F8BDA7CCC3A2D0A1E2180A8AC079\GENERATE.STAMP.RULE
+setlocal
+C:\Users\Lenovo\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Lenovo/Desktop/cpp_browser -BC:/Users/Lenovo/Desktop/cpp_browser/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lenovo/Desktop/cpp_browser/build/NetscapeMatrix.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

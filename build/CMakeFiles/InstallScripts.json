@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Lenovo/Desktop/cpp_browser/build/cmake_install.cmake",
+		"C:/Users/Lenovo/Desktop/cpp_browser/build/components/shared/cmake_install.cmake",
+		"C:/Users/Lenovo/Desktop/cpp_browser/build/components/engine/cmake_install.cmake",
+		"C:/Users/Lenovo/Desktop/cpp_browser/build/components/gpu/cmake_install.cmake",
+		"C:/Users/Lenovo/Desktop/cpp_browser/build/components/net/cmake_install.cmake",
+		"C:/Users/Lenovo/Desktop/cpp_browser/build/components/ui/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
