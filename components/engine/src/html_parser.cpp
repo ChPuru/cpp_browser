@@ -6,21 +6,10 @@ namespace HTML {
 
     Parser::Parser(std::string input) : m_input(std::move(input)) {}
 
-    char Parser::next_char() {
-        return m_input[m_pos];
-    }
-
-    bool Parser::eof() {
-        return m_pos >= m_input.length();
-    }
-
-    bool Parser::starts_with(const std::string& s) {
-        return m_input.substr(m_pos, s.length()) == s;
-    }
-
-    char Parser::consume_char() {
-        return m_input[m_pos++];
-    }
+    char Parser::next_char() { return m_input[m_pos]; }
+    bool Parser::eof() { return m_pos >= m_input.length(); }
+    bool Parser::starts_with(const std::string& s) { return m_input.substr(m_pos, s.length()) == s; }
+    char Parser::consume_char() { return m_input[m_pos++]; }
 
     std::string Parser::consume_while(std::function<bool(char)> test) {
         std::string result;
@@ -49,8 +38,7 @@ namespace HTML {
     std::unique_ptr<DOM::Node> Parser::parse_node() {
         if (next_char() == '<') {
             return parse_element();
-        }
-        else {
+        } else {
             return parse_text();
         }
     }
@@ -62,15 +50,20 @@ namespace HTML {
     std::unique_ptr<DOM::Node> Parser::parse_element() {
         assert(consume_char() == '<');
         std::string tag_name = parse_tag_name();
+        std::transform(tag_name.begin(), tag_name.end(), tag_name.begin(), ::tolower);
         DOM::AttrMap attrs = parse_attributes();
         assert(consume_char() == '>');
 
         auto children = parse_nodes();
 
-        assert(consume_char() == '<');
-        assert(consume_char() == '/');
-        assert(parse_tag_name() == tag_name);
-        assert(consume_char() == '>');
+        if (starts_with("</")) {
+            assert(consume_char() == '<');
+            assert(consume_char() == '/');
+            std::string closing_tag = parse_tag_name();
+            std::transform(closing_tag.begin(), closing_tag.end(), closing_tag.begin(), ::tolower);
+            // We don't assert equality for robustness, but we consume the tag.
+            assert(consume_char() == '>');
+        }
 
         return DOM::create_element_node(tag_name, std::move(attrs), std::move(children));
     }
@@ -79,6 +72,7 @@ namespace HTML {
         return consume_while([](char c) { return isalnum(c); });
     }
 
+    // --- THIS IS THE UPGRADED FUNCTION ---
     DOM::AttrMap Parser::parse_attributes() {
         DOM::AttrMap attributes;
         while (true) {
@@ -86,24 +80,30 @@ namespace HTML {
             if (next_char() == '>') {
                 break;
             }
-            auto [name, value] = parse_attr();
+            std::string name = parse_tag_name();
+            std::string value = ""; // Default to empty string for boolean attributes
+
+            consume_whitespace();
+            if (!eof() && next_char() == '=') {
+                consume_char(); // consume '='
+                value = parse_attr_value();
+            }
             attributes[name] = value;
         }
         return attributes;
     }
 
-    std::pair<std::string, std::string> Parser::parse_attr() {
-        std::string name = parse_tag_name();
-        assert(consume_char() == '=');
-        std::string value = parse_attr_value();
-        return { name, value };
-    }
-
     std::string Parser::parse_attr_value() {
-        char open_quote = consume_char();
-        assert(open_quote == '"' || open_quote == '\'');
-        std::string value = consume_while([open_quote](char c) { return c != open_quote; });
-        assert(consume_char() == open_quote);
-        return value;
+        consume_whitespace();
+        char open_quote = next_char();
+        if (open_quote == '"' || open_quote == '\'') {
+            consume_char();
+            std::string value = consume_while([open_quote](char c) { return c != open_quote; });
+            assert(consume_char() == open_quote);
+            return value;
+        } else {
+            // Handle unquoted attributes
+            return consume_while([](char c) { return !isspace(c) && c != '>'; });
+        }
     }
 }

@@ -5,7 +5,6 @@
 
 namespace Layout {
 
-    // Helper to get a float value (e.g., from "20px")
     float get_px_value(const Style::StyledNode* node, const std::string& prop_name) {
         if (!node) return 0.0f;
         auto it = node->specified_values.find(prop_name);
@@ -27,10 +26,17 @@ namespace Layout {
             auto it = styled_node->specified_values.find("display");
             if (it != styled_node->specified_values.end()) {
                 if (auto val = std::get_if<std::string>(&it->second)) {
-                    if (*val == "block") box->box_type = BoxType::Block;
-                    else box->box_type = BoxType::Inline;
-                } else { box->box_type = BoxType::Inline; }
-            } else { box->box_type = BoxType::Inline; }
+                    if (*val == "block") {
+                        box->box_type = BoxType::Block;
+                    } else {
+                        box->box_type = BoxType::Inline;
+                    }
+                } else {
+                    box->box_type = BoxType::Inline;
+                }
+            } else {
+                box->box_type = BoxType::Inline;
+            }
         }
 
         for (const auto& child : styled_node->children) {
@@ -50,27 +56,22 @@ namespace Layout {
     }
 
     void layout_block(LayoutBox* box, Dimensions containing_block) {
-        // --- 1. Calculate box properties from CSS ---
         box->dimensions.margin.top = get_px_value(box->styled_node, "margin-top");
         box->dimensions.margin.bottom = get_px_value(box->styled_node, "margin-bottom");
         box->dimensions.margin.left = get_px_value(box->styled_node, "margin-left");
         box->dimensions.margin.right = get_px_value(box->styled_node, "margin-right");
-
         box->dimensions.padding.top = get_px_value(box->styled_node, "padding-top");
         box->dimensions.padding.bottom = get_px_value(box->styled_node, "padding-bottom");
         box->dimensions.padding.left = get_px_value(box->styled_node, "padding-left");
         box->dimensions.padding.right = get_px_value(box->styled_node, "padding-right");
 
-        // --- 2. Calculate position of the box's outer edge ---
         box->dimensions.x = containing_block.x + box->dimensions.margin.left;
-        box->dimensions.y = containing_block.y; // Vertical margin is handled by parent
-
-        // --- 3. Calculate the width of the box ---
+        box->dimensions.y = containing_block.y;
+        
         float total_horizontal_space = box->dimensions.padding.left + box->dimensions.padding.right +
                                        box->dimensions.margin.left + box->dimensions.margin.right;
         box->dimensions.width = containing_block.width - total_horizontal_space;
 
-        // --- 4. Calculate the position and size of the content box for children ---
         Dimensions content_box;
         content_box.x = box->dimensions.x + box->dimensions.padding.left;
         content_box.y = box->dimensions.y + box->dimensions.padding.top;
@@ -79,7 +80,7 @@ namespace Layout {
         float children_height = 0.0f;
         for (auto& child : box->children) {
             Dimensions child_cb = content_box;
-            child_cb.y += children_height; // Position child relative to content box top
+            child_cb.y += children_height;
 
             if (child->box_type == BoxType::Anonymous) {
                 child->dimensions.x = child_cb.x;
@@ -93,7 +94,6 @@ namespace Layout {
             }
         }
 
-        // --- 5. Calculate the final height of the box ---
         float explicit_height = get_px_value(box->styled_node, "height");
         if (explicit_height > 0.0f) {
             box->dimensions.height = explicit_height;
@@ -104,16 +104,7 @@ namespace Layout {
 
     std::unique_ptr<LayoutBox> layout_tree(const Style::StyledNode& root, Dimensions viewport) {
         auto root_box = build_layout_box(&root);
-        // The root box's y starts at 0, its children will be offset by its margin.
-        float start_y = 0.0f;
-        for (auto& child : root_box->children) {
-            Dimensions child_cb = viewport;
-            child_cb.y = start_y;
-            layout_block(child.get(), child_cb);
-            start_y += child->dimensions.margin.top + child->dimensions.height + child->dimensions.margin.bottom;
-        }
-        root_box->dimensions = viewport;
-        root_box->dimensions.height = start_y;
+        layout_block(root_box.get(), viewport);
         return root_box;
     }
 }

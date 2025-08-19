@@ -1,0 +1,48 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "shared::@16f2952d4b86b06603b8"
+		},
+		{
+			"id" : "engine::@7d44ed87844b4a35d260"
+		},
+		{
+			"id" : "gpu::@dba82ed32395b209cb63"
+		},
+		{
+			"id" : "net::@6af385a72824df051632"
+		},
+		{
+			"id" : "browser::@c0a8ccd112035a077476"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

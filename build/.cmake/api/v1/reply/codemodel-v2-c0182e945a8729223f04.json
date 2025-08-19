@@ -1,0 +1,740 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "components/shared",
+					"jsonFile" : "directory-components.shared-Debug-e2fa9a8af4182740b2c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/shared",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "components/engine",
+					"jsonFile" : "directory-components.engine-Debug-fbbb48a72b6b00e97d28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/engine",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "components/gpu",
+					"jsonFile" : "directory-components.gpu-Debug-322971ce8fb75f4988a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/gpu",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "components/net",
+					"jsonFile" : "directory-components.net-Debug-1fc3382876cf7050acd2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/net",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "components/ui",
+					"jsonFile" : "directory-components.ui-Debug-5ac1a3e1f51e64477612.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/ui",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "NetscapeMatrix",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-e2252a85ac988b489c7a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-5a01784e748ad9bcde31.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "browser::@c0a8ccd112035a077476",
+					"jsonFile" : "target-browser-Debug-9e17719347898bca99aa.json",
+					"name" : "browser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "engine::@7d44ed87844b4a35d260",
+					"jsonFile" : "target-engine-Debug-5faa7071052ffea516a7.json",
+					"name" : "engine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gpu::@dba82ed32395b209cb63",
+					"jsonFile" : "target-gpu-Debug-ff77755a00c93ebc5288.json",
+					"name" : "gpu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "net::@6af385a72824df051632",
+					"jsonFile" : "target-net-Debug-ed4414fd1be95d8edc4c.json",
+					"name" : "net",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "shared::@16f2952d4b86b06603b8",
+					"jsonFile" : "target-shared-Debug-cdae699641cfabcc855a.json",
+					"name" : "shared",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "components/shared",
+					"jsonFile" : "directory-components.shared-Release-e2fa9a8af4182740b2c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/shared",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "components/engine",
+					"jsonFile" : "directory-components.engine-Release-fbbb48a72b6b00e97d28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/engine",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "components/gpu",
+					"jsonFile" : "directory-components.gpu-Release-322971ce8fb75f4988a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/gpu",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "components/net",
+					"jsonFile" : "directory-components.net-Release-1fc3382876cf7050acd2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/net",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "components/ui",
+					"jsonFile" : "directory-components.ui-Release-5ac1a3e1f51e64477612.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/ui",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "NetscapeMatrix",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-e2252a85ac988b489c7a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-5a01784e748ad9bcde31.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "browser::@c0a8ccd112035a077476",
+					"jsonFile" : "target-browser-Release-48d8e28a2638213fe408.json",
+					"name" : "browser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "engine::@7d44ed87844b4a35d260",
+					"jsonFile" : "target-engine-Release-1ea20701d59a3b123e6b.json",
+					"name" : "engine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gpu::@dba82ed32395b209cb63",
+					"jsonFile" : "target-gpu-Release-38e90090f20cf54dfcb4.json",
+					"name" : "gpu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "net::@6af385a72824df051632",
+					"jsonFile" : "target-net-Release-5140991b097e262bc39e.json",
+					"name" : "net",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "shared::@16f2952d4b86b06603b8",
+					"jsonFile" : "target-shared-Release-b46cc976ab3c5d70f0e7.json",
+					"name" : "shared",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "components/shared",
+					"jsonFile" : "directory-components.shared-MinSizeRel-e2fa9a8af4182740b2c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/shared",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "components/engine",
+					"jsonFile" : "directory-components.engine-MinSizeRel-fbbb48a72b6b00e97d28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/engine",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "components/gpu",
+					"jsonFile" : "directory-components.gpu-MinSizeRel-322971ce8fb75f4988a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/gpu",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "components/net",
+					"jsonFile" : "directory-components.net-MinSizeRel-1fc3382876cf7050acd2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/net",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "components/ui",
+					"jsonFile" : "directory-components.ui-MinSizeRel-5ac1a3e1f51e64477612.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/ui",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "NetscapeMatrix",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-e2252a85ac988b489c7a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-5a01784e748ad9bcde31.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "browser::@c0a8ccd112035a077476",
+					"jsonFile" : "target-browser-MinSizeRel-e36021e7511a757121ed.json",
+					"name" : "browser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "engine::@7d44ed87844b4a35d260",
+					"jsonFile" : "target-engine-MinSizeRel-2f2cef1d310137967b7e.json",
+					"name" : "engine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gpu::@dba82ed32395b209cb63",
+					"jsonFile" : "target-gpu-MinSizeRel-624e6864820f2f301ef4.json",
+					"name" : "gpu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "net::@6af385a72824df051632",
+					"jsonFile" : "target-net-MinSizeRel-58e9ce17b50b22472190.json",
+					"name" : "net",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "shared::@16f2952d4b86b06603b8",
+					"jsonFile" : "target-shared-MinSizeRel-df5ba45297de38517ee7.json",
+					"name" : "shared",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "components/shared",
+					"jsonFile" : "directory-components.shared-RelWithDebInfo-e2fa9a8af4182740b2c9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/shared",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "components/engine",
+					"jsonFile" : "directory-components.engine-RelWithDebInfo-fbbb48a72b6b00e97d28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/engine",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "components/gpu",
+					"jsonFile" : "directory-components.gpu-RelWithDebInfo-322971ce8fb75f4988a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/gpu",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "components/net",
+					"jsonFile" : "directory-components.net-RelWithDebInfo-1fc3382876cf7050acd2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/net",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "components/ui",
+					"jsonFile" : "directory-components.ui-RelWithDebInfo-5ac1a3e1f51e64477612.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/ui",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "NetscapeMatrix",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-e2252a85ac988b489c7a.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-5a01784e748ad9bcde31.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "browser::@c0a8ccd112035a077476",
+					"jsonFile" : "target-browser-RelWithDebInfo-9bdaebd2cf9342dd4356.json",
+					"name" : "browser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "engine::@7d44ed87844b4a35d260",
+					"jsonFile" : "target-engine-RelWithDebInfo-c7d3dd89e8a7e0b8d64b.json",
+					"name" : "engine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gpu::@dba82ed32395b209cb63",
+					"jsonFile" : "target-gpu-RelWithDebInfo-2d5c9aba03f46758018d.json",
+					"name" : "gpu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "net::@6af385a72824df051632",
+					"jsonFile" : "target-net-RelWithDebInfo-77d0939601e3ce46f434.json",
+					"name" : "net",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "shared::@16f2952d4b86b06603b8",
+					"jsonFile" : "target-shared-RelWithDebInfo-a2c95787ce0fd4188d0d.json",
+					"name" : "shared",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lenovo/Desktop/cpp_browser/build",
+		"source" : "C:/Users/Lenovo/Desktop/cpp_browser"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

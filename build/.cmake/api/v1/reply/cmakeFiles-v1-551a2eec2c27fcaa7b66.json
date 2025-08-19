@@ -1,0 +1,336 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.0.3/CMakeSystem.cmake"
+		},
+		{
+			"path" : "vcpkg/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.0.3/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Compiler/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Compiler/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Platform/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Platform/Windows-MSVC.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.0.3/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Linker/MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Linker/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Platform/Linker/Windows-MSVC-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Platform/Linker/Windows-MSVC.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/glfw3/glfw3ConfigVersion.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/glfw3/glfw3Targets.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-debug.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-release.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/glad/gladConfigVersion.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/glad/gladConfig.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/glad/gladTargets.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/glad/gladTargets-debug.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/glad/gladTargets-release.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/imgui/imgui-config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/glfw3/glfw3ConfigVersion.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/glfw3/glfw3Targets.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/imgui/imgui-targets.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/imgui/imgui-targets-debug.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/imgui/imgui-targets-release.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/cpr/cprConfigVersion.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/cpr/cprConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/curl/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/curl/CURLConfigVersion.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/curl/CURLConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/curl/CURLTargets.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/curl/CURLTargets-debug.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/curl/CURLTargets-release.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Lenovo/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-4.0/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/cpr/cprTargets.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/cpr/cprTargets-debug.cmake"
+		},
+		{
+			"path" : "vcpkg/installed/x64-windows/share/cpr/cprTargets-release.cmake"
+		},
+		{
+			"path" : "components/shared/CMakeLists.txt"
+		},
+		{
+			"path" : "components/engine/CMakeLists.txt"
+		},
+		{
+			"path" : "components/gpu/CMakeLists.txt"
+		},
+		{
+			"path" : "components/net/CMakeLists.txt"
+		},
+		{
+			"path" : "components/ui/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lenovo/Desktop/cpp_browser/build",
+		"source" : "C:/Users/Lenovo/Desktop/cpp_browser"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

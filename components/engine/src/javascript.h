@@ -4,6 +4,7 @@
 #include <string>
 #include <vector>
 #include "duktape.h"
+#include "dom.h" // Include DOM header
 
 namespace JS {
 
@@ -12,18 +13,20 @@ namespace JS {
         JSEngine();
         ~JSEngine();
 
-        // Executes a script and returns true on success
-        bool run_script(const std::string& script);
+        // Give the JS engine a pointer to the document root
+        void set_document(DOM::Node* doc);
 
-        // Get the logs produced by console.log
+        bool run_script(const std::string& script);
         const std::vector<std::string>& get_logs() const;
 
     private:
         duk_context* m_ctx;
         std::vector<std::string> m_logs;
+        DOM::Node* m_document = nullptr;
 
-        // This static function will be called from within Duktape
+        // C++ functions that will be callable from JavaScript
         static int native_console_log(duk_context* ctx);
+        static int native_get_element_by_id(duk_context* ctx);
     };
 
 } // namespace JS
