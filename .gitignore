@@ -1,0 +1,29 @@
+/vcpkg/
+# C++ build artifacts
+build/
+/build/
+*.exe
+*.dll
+*.lib
+*.ilk
+*.pdb
+*.obj
+*.o
+*.so
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# vcpkg
+vcpkg_installed/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

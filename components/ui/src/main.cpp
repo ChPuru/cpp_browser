@@ -4,6 +4,7 @@
 #include <memory>
 #include <optional>
 #include <functional>
+#include <sstream>
 
 // Graphics and Windowing
 #include <glad/glad.h>
@@ -22,9 +23,9 @@
 #include "javascript.h"
 
 struct UIState {
-    char address_bar_text[1024] = "http://info.cern.ch";
+    char address_bar_text[1024] = "http://info.cern.ch/hypertext/WWW/TheProject.html";
     bool load_requested = true;
-    std::string url_to_load = "http://info.cern.ch";
+    std::string url_to_load = "http://info.cern.ch/hypertext/WWW/TheProject.html";
     bool show_dev_console = true;
     bool show_about_window = false;
     char console_input_buffer[1024] = "";
@@ -57,7 +58,7 @@ void render_layout_box(const Layout::LayoutBox* box, ImDrawList* draw_list, ImVe
     ImVec2 p_min(viewport_origin.x + box->dimensions.x, viewport_origin.y + box->dimensions.y);
     ImVec2 p_max(p_min.x + box->dimensions.width, p_min.y + box->dimensions.height);
 
-    if (box->box_type == Layout::BoxType::Block) {
+    if (box->box_type == Layout::BoxType::Block || box->box_type == Layout::BoxType::Flex) {
         auto it = box->styled_node->specified_values.find("background-color");
         if (it != box->styled_node->specified_values.end()) {
             if (const CSS::Color* color = std::get_if<CSS::Color>(&it->second)) {
@@ -70,8 +71,24 @@ void render_layout_box(const Layout::LayoutBox* box, ImDrawList* draw_list, ImVe
         auto it = box->styled_node->specified_values.find("color");
         if (it != box->styled_node->specified_values.end()) {
             if (const CSS::Color* color = std::get_if<CSS::Color>(&it->second)) {
-                ImVec2 text_pos(p_min.x + 5, p_min.y + 2);
-                draw_list->AddText(text_pos, IM_COL32(color->r, color->g, color->b, color->a), box->styled_node->node->text_data.c_str());
+                float font_size = 16.0f;
+                auto fs_it = box->styled_node->specified_values.find("font-size");
+                if (fs_it != box->styled_node->specified_values.end()) {
+                    if (const float* fs = std::get_if<float>(&fs_it->second)) {
+                        font_size = *fs;
+                    }
+                }
+                ImGui::GetFont()->Scale = font_size / ImGui::GetFontSize();
+                ImGui::PushFont(ImGui::GetFont());
+                
+                ImVec2 text_pos(p_min.x, p_min.y);
+                float wrap_width = box->dimensions.width;
+                const char* text_start = box->styled_node->node->text_data.c_str();
+                const char* text_end = text_start + box->styled_node->node->text_data.length();
+                
+                draw_list->AddText(ImGui::GetFont(), font_size, text_pos, IM_COL32(color->r, color->g, color->b, color->a), text_start, text_end, wrap_width);
+
+                ImGui::PopFont();
             }
         }
     }
@@ -105,22 +122,34 @@ int main() {
     while (!glfwWindowShouldClose(window)) {
         glfwPollEvents();
 
-        if (ui_state.load_requested && ui_state.url_to_load.length() > 0) {
+        if (ui_state.load_requested) {
             std::string html_source;
-            if (std::string(ui_state.url_to_load) == "test.html") {
+            std::string current_url = ui_state.url_to_load;
+
+            if (current_url == "js_test.html") {
                 html_source = R"(
                     <div id="main">
-                        <h1 id="title">Netscape Matrix</h1>
-                        <p id="msg">Check the dev console for JS output!</p>
+                        <h1 id="title">JS DOM Test</h1>
+                        <p id="msg">This text will be changed by JavaScript.</p>
                         <script>
-                            console.log("Hello from JavaScript!");
+                            console.log("Running script...");
                             let el = document.getElementById('msg');
-                            el.innerHTML = "This text was set by JavaScript!";
+                            el.innerHTML = "Hello from the DOM API!";
                         </script>
                     </div>
                 )";
-            } else {
-                auto resource = network_process.request(ui_state.url_to_load);
+            } else if (current_url == "flexbox.html") {
+                 html_source = R"(
+                    <div id="header">
+                        <div id="logo">Netscape Matrix</div>
+                        <div id="nav">
+                            <p>Home</p> <p>About</p> <p>Contact</p>
+                        </div>
+                    </div>
+                )";
+            }
+            else {
+                auto resource = network_process.request(current_url);
                 if (resource) { html_source = resource->data; }
                 else { html_source = "<h1>Error</h1><p>Page failed to load or was blocked.</p>"; }
             }
@@ -135,6 +164,10 @@ int main() {
                 #main { background-color: #333333; padding: 20px; }
                 #msg { color: #ff8888; }
                 script { display: none; }
+                #header { display: flex; justify-content: space-between; background-color: #444444; height: 60px; padding-left: 20px; padding-right: 20px; }
+                #logo { display: block; color: #00ff00; font-size: 32px; height: 40px; width: 300px; }
+                #nav { display: flex; justify-content: flex-end; width: 400px; }
+                #nav p { display: block; color: #cccccc; font-size: 20px; margin-left: 15px; height: 30px; width: 80px; }
             )";
 
             HTML::Parser html_parser(html_source);
@@ -160,7 +193,6 @@ int main() {
                 auto stylesheet = css_parser.parse_stylesheet();
                 style_root = Style::style_tree(dom_root_owner.get(), stylesheet);
             } else {
-                dom_root_owner = nullptr;
                 style_root = nullptr;
             }
             ui_state.load_requested = false;
@@ -178,13 +210,18 @@ int main() {
             if (ImGui::BeginMenu("File")) { if (ImGui::MenuItem("Exit")) { glfwSetWindowShouldClose(window, true); } ImGui::EndMenu(); }
             if (ImGui::BeginMenu("Bookmarks")) {
                 if (ImGui::MenuItem("CERN - First Website")) {
-                    strcpy(ui_state.address_bar_text, "http://info.cern.ch");
+                    strcpy(ui_state.address_bar_text, "http://info.cern.ch/hypertext/WWW/TheProject.html");
                     ui_state.url_to_load = ui_state.address_bar_text;
                     ui_state.load_requested = true;
                 }
-                if (ImGui::MenuItem("JS Test Page")) {
-                    strcpy(ui_state.address_bar_text, "test.html");
-                    ui_state.url_to_load = "test.html";
+                if (ImGui::MenuItem("JS DOM Test")) {
+                    strcpy(ui_state.address_bar_text, "js_test.html");
+                    ui_state.url_to_load = "js_test.html";
+                    ui_state.load_requested = true;
+                }
+                if (ImGui::MenuItem("Flexbox Test")) {
+                    strcpy(ui_state.address_bar_text, "flexbox.html");
+                    ui_state.url_to_load = "flexbox.html";
                     ui_state.load_requested = true;
                 }
                 ImGui::EndMenu();

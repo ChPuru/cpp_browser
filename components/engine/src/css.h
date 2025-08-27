@@ -8,12 +8,15 @@
 
 namespace CSS {
 
-    struct Color {
-        uint8_t r = 0, g = 0, b = 0, a = 255;
-    };
+    struct Color { uint8_t r = 0, g = 0, b = 0, a = 255; };
 
-    // A Value can now be a keyword (string), a length (float), or a Color.
-    using Value = std::variant<std::string, float, Color>;
+    // --- NEW: Enums for specific CSS properties ---
+    enum class Display { Block, Inline, Flex, None };
+    enum class FlexDirection { Row, Column };
+    enum class JustifyContent { FlexStart, FlexEnd, Center, SpaceBetween, SpaceAround };
+
+    // Value can now hold our new enum types
+    using Value = std::variant<std::string, float, Color, Display, FlexDirection, JustifyContent>;
 
     struct Selector {
         std::string tag_name;
@@ -23,7 +26,7 @@ namespace CSS {
 
     struct Declaration {
         std::string property;
-        Value value; // Use the new Value type
+        Value value;
     };
 
     struct Rule {

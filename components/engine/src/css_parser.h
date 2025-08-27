@@ -3,7 +3,7 @@
 
 #include "css.h"
 #include <string>
-#include <functional> // <-- ADD THIS LINE
+#include <functional> 
 
 namespace CSS {
     class Parser {

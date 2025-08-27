@@ -18,7 +18,7 @@ namespace Layout {
         EdgeSizes margin;
     };
 
-    enum class BoxType { Block, Inline, Anonymous };
+    enum class BoxType { Block, Inline, Anonymous, Flex };
 
     struct LayoutBox {
         Dimensions dimensions;
